@@ -9,6 +9,7 @@ class App extends StatelessWidget {
     return UsersProvider(
       child: MaterialApp(
         theme: AppTheme.themeDark,
+        debugShowCheckedModeBanner: false,
         onGenerateRoute: routes,
       ),
     );
